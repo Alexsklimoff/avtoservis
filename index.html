@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Автосервис</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Добро пожаловать в наш автосервис!</h1>
+        <nav>
+            <ul>
+                <li><a href="#services">Услуги</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="services">
+        <h2>Наши услуги</h2>
+        <ul>
+            <li>Кузовной ремонт</li>
+            <li>Покраска автомобилей</li>
+            <li>Ремонт двигателя</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Контакты</h2>
+        <p>Телефон: +7 (XXX) XXX-XX-XX</p>
+        <p>Адрес: улица Примерная, дом 1</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Автосервис</p>
+    </footer>
+</body>
+</html>
+<section id="appointment">
+    <h2>Записаться на сервис</h2>
+    <form action="#" method="POST">
+        <label for="name">Ваше имя:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="phone">Телефон:</label>
+        <input type="tel" id="phone" name="phone" required>
+        
+        <label for="service">Выберите услугу:</label>
+        <select id="service" name="service">
+            <option value="repair">Ремонт автомобиля</option>
+            <option value="painting">Покраска автомобиля</option>
+            <option value="diagnostic">Диагностика</option>
+        </select>
+        
+        <label for="date">Дата записи:</label>
+        <input type="date" id="date" name="date" required>
+        
+        <button type="submit">Записаться</button>
+    </form>
+</section>
+<section id="reviews">
+    <h2>Отзывы наших клиентов</h2>
+    <div class="review">
+        <p>"Отличный сервис! Быстро починили машину и дали хорошие рекомендации. Очень довольны!"</p>
+        <p>- Игорь К.</p>
+    </div>
+    <div class="review">
+        <p>"Ремонт прошёл качественно и недорого. Все работы были выполнены в срок!"</p>
+        <p>- Наталья П.</p>
+    </div>
+    <div class="review">
+        <p>"Приятно работать с профессионалами. Обязательно вернусь!"</p>
+        <p>- Сергей Л.</p>
+    </div>
+</section>
+<section id="map">
+    <h2>Найдите нас на карте</h2>
+    <iframe src="https://www.google.com/maps/embed?pb=..." width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</section>
+<section id="about">
+    <h2>О нас</h2>
+    <p>Мы — профессиональный автосервис с более чем 30-летним опытом работы. Наша команда состоит из высококвалифицированных мастеров, которые всегда готовы помочь вам с ремонтом и обслуживанием вашего автомобиля.</p>
+</section>
+<section id="pricing">
+    <h2>Цены на услуги</h2>
+    <table>
+        <tr>
+            <th>Услуга</th>
+            <th>Цена</th>
+        </tr>
+        <tr>
+            <td>Ремонт двигателя</td>
+            <td>10 000 Р</td>
+        </tr>
+        <tr>
+            <td>Покраска автомобиля</td>
+            <td>8 000 Р</td>
+        </tr>
+        <tr>
+            <td>Кузовной ремонт</td>
+            <td>5 000 Р</td>
+        </tr>
+    </table>
+</section>
