@@ -124,3 +124,50 @@ th, td {
 th {
     background-color: #f4f4f4;
 }
+/* Основные цвета */
+:root {
+    --main-color: #003366;
+    --accent-color: #FF6600;
+    --background-color: #FFFFFF;
+    --secondary-background: #F4F4F4;
+    --text-color: #333333;
+}
+
+/* Общее оформление */
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Заголовки */
+h1, h2, h3, h4, h5, h6 {
+    color: var(--main-color);
+}
+
+/* Кнопки */
+button, .btn {
+    background-color: var(--accent-color);
+    color: var(--background-color);
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover, .btn:hover {
+    background-color: darkorange;
+}
+
+/* Ссылки */
+a {
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
