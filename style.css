@@ -171,3 +171,25 @@ a {
 a:hover {
     text-decoration: underline;
 }
+/* Шрифты и базовые стили */
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+/* Дополнительные стили */
+p {
+    margin-bottom: 20px;
+}
+
+button, .btn {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
